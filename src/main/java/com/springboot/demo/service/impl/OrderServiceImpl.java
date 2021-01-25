@@ -41,4 +41,8 @@ public class OrderServiceImpl implements UserService{
     public void mac(){
         System.out.println("mac");
     }
+
+    public void orderTest(){
+        System.out.println("orderTest");
+    }
 }
