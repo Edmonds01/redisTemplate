@@ -37,4 +37,8 @@ public class OrderServiceImpl implements UserService{
     public List<User> findAll() {
         return userDao.findAll();
     }
+
+    public void mac(){
+        System.out.println("mac");
+    }
 }
