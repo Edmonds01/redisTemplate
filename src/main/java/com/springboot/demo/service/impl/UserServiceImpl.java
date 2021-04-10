@@ -37,12 +37,4 @@ public class UserServiceImpl implements UserService{
     public List<User> findAll() {
         return userDao.findAll();
     }
-
-    public List<User> test() {
-        return userDao.findAll();
-    }
-
-    public void bb(){
-
-    }
 }
