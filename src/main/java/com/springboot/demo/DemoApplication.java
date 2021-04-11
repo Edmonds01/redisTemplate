@@ -14,7 +14,6 @@ public class DemoApplication extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application){
-		System.out.println("外部tomcat,chapter启动!");
 		return application.sources(DemoApplication.class);
 	}
 
