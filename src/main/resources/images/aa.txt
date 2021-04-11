@@ -1,2 +1,3 @@
 asdasdasdsadsadsa
-sadasdassadasd
+sadasdassadasdasdasdsdsadas
+sadasdsgit rm --cached
