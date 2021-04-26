@@ -29,7 +29,6 @@ public class RedisTestController extends BaseController{
 
     @RequestMapping(value="/list")
     public String view(HttpServletRequest request, String name){
-        logger.info("返回列表页面");
         return "/demoPage/listPage/"+ name;
     }
 
